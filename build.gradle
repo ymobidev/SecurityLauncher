@@ -162,12 +162,12 @@ android {
     buildTypes {
         debug {
             applicationIdSuffix ".debug"
-            resValue("string", "derived_app_name", "Lawnchair (Debug)")
+            resValue("string", "derived_app_name", "SecurityLauncher (Debug)")
             signingConfig releaseSigning
         }
 
         release {
-            resValue("string", "derived_app_name", "Lawnchair")
+            resValue("string", "derived_app_name", "SecurityLauncher")
             signingConfig releaseSigning
             minifyEnabled true
             shrinkResources true
@@ -199,7 +199,7 @@ android {
 
         lawn {
             dimension "app"
-            applicationId 'app.lawnchair'
+            applicationId 'com.ymobidev.securitylauncher'
             testApplicationId 'com.android.launcher3.tests'
             isDefault true
         }

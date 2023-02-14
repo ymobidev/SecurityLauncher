@@ -218,7 +218,7 @@ fun About() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Image(
-                painter = painterResource(id = R.drawable.ic_launcher_home_comp),
+                painter = painterResource(id = R.drawable.ic_launcher_home),
                 contentDescription = null,
                 modifier = Modifier
                     .size(72.dp)
